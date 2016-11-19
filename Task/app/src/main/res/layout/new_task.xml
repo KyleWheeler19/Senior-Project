@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/NewTask"
+        android:id="@+id/newTaskTitle"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textColor="#9f9f9f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:id="@+id/textView"
+        android:textColor="#000000"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:text="@string/AddDescription"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:id="@+id/textView2"
+        android:background="#ffffff"
+        android:fadingEdge="horizontal|vertical"
+        android:fadeScrollbars="true" />
+
+    <TextView
+        android:text="@string/Due"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        />
+
+    <DatePicker
+        android:layout_width="207dp"
+        android:layout_height="95dp"
+        android:id="@+id/datePicker"
+        android:headerBackground="?attr/actionModeSplitBackground"
+        />
+
+
+    <TextView
+        android:text="@string/Remind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="#000000"/>
+
+
+    <CheckBox
+        android:text="@string/one_day"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox" />
+
+    <CheckBox
+        android:text="@string/three_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2" />
+
+    <CheckBox
+        android:text="@string/One_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3" />
+
+
+</LinearLayout>

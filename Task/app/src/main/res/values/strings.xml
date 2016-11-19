@@ -1,0 +1,21 @@
+<resources>
+    <string name="Title">Name of App</string>
+    <string name="noTask">You haven't made any tasks yet, click on the add button to get started!</string>
+    <string name="app_name"> </string>
+    <string name="NewTask">New Task</string>
+    <string name="description">Description:</string>
+    <string name="Remind">Remind Me:</string>
+    <string name="one_day">1 day before due date</string>
+    <string name="three_days">3 days before due date</string>
+    <string name="One_week">1 week before due date</string>
+    <string name="AddDescription">Add your description here!</string>
+    <string name="Due">Due Date:</string>
+
+
+
+
+
+
+
+
+</resources>
